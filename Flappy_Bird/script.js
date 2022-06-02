@@ -4,12 +4,12 @@ const reset = document.getElementById("reset");
 kaboom();
 
 // load assets
-loadSprite("bird", "sprites/bird.png");
-loadSprite("background", "sprites/background.png");
-loadSprite("pipe", "sprites/pipe.png");
-loadSound("hit", "audios/hit.ogg");
-loadSound("point", "audios/point.ogg");
-loadSound("wing", "audios/wing.ogg");
+loadSprite("bird", "Flappy_Bird/sprites/bird.png");
+loadSprite("background", "Flappy_Bird/sprites/background.png");
+loadSprite("pipe", "Flappy_Bird/sprites/pipe.png");
+loadSound("hit", "Flappy_Bird/audios/hit.ogg");
+loadSound("point", "Flappy_Bird/audios/point.ogg");
+loadSound("wing", "Flappy_Bird/audios/wing.ogg");
 
 scene("game", () => {
   
